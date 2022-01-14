@@ -1,0 +1,36 @@
+﻿server:
+  port: 8002
+
+
+spring:
+  # 数据源配置
+  application:
+    name: cloud-payment-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/mars_ld?autoReconnect=true&roundRobinLoadBalance=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    # 初始化大小，最小，最大
+    initial-size: 5
+    max-active: 10
+    min-idle: 5
+    # 配置获取连接等待超时的时间
+    max-wait: 6000
+
+eureka:
+  client:
+    #    fasle 表示不向注册中心注册自己
+    register-with-eureka: true
+    #    false表示自己就是注册中心
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+  instance:
+    instance-id: payment02  #更改eureka的展示地址
+    prefer-ip-address: true  #eureka上鼠标上去展示地址
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.tdh.springcloud.entitys
