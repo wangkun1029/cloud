@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-provider-payment02" />
-        <module name="cloud-common" />
         <module name="cloud-eureka-server" />
+        <module name="cloud-feign-order" />
+        <module name="cloud-consumer-order" />
+        <module name="cloud-provider-hystrix-payment" />
+        <module name="cloud-common" />
         <module name="cloud-eureka-server02" />
         <module name="cloud-provider-payment" />
-        <module name="cloud-consumer-order" />
       </profile>
     </annotationProcessing>
   </component>
