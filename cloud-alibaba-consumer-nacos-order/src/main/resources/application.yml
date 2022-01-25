@@ -1,0 +1,15 @@
+﻿server:
+  port: 83
+
+spring:
+  # 数据源配置
+  application:
+    name: nacos-order-consumer
+  cloud:
+    nacos:
+      discovery:
+#        不可以带http
+        server-addr: 192.168.71.30:8848
+
+service-url:
+  nacos-user-service: http://nacos-payment-provider

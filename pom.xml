@@ -19,7 +19,10 @@
     <module>cloud-consumer-feign-hystrix-order</module>
     <module>cloud-consumer-hystrix-disboard</module>
     <module>cloud-gateway</module>
-      <module>cloud-config-center</module>
+    <module>cloud-alibaba-provider-payment</module>
+    <module>cloud-alibaba-provider-payment02</module>
+    <module>cloud-alibaba-consumer-nacos-order</module>
+    <module>cloud-nacos-config</module>
   </modules>
   <packaging>pom</packaging>
 

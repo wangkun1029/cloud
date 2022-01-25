@@ -9,17 +9,23 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-provider-payment02" />
         <module name="cloud-consumer-feign-hystrix-order" />
-        <module name="cloud-eureka-server" />
+        <module name="cloud-alibaba-provider-payment" />
         <module name="cloud-consumer-hystrix-disboard" />
-        <module name="cloud-feign-order" />
-        <module name="cloud-consumer-order" />
         <module name="cloud-provider-hystrix-payment" />
-        <module name="cloud-common" />
-        <module name="cloud-eureka-server02" />
-        <module name="cloud-config-center" />
+        <module name="cloud-nacos-config" />
         <module name="cloud-provider-payment" />
         <module name="cloud-gateway" />
+        <module name="cloud-eureka-server" />
+        <module name="cloud-feign-order" />
+        <module name="cloud-consumer-order" />
+        <module name="cloud-common" />
+        <module name="cloud-alibaba-provider-payment02" />
+        <module name="cloud-eureka-server02" />
+        <module name="cloud-alibaba-consumer-nacos-order" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-config-center" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
