@@ -1,4 +1,4 @@
-﻿package com.thd.springcloud;
+  package com.thd.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

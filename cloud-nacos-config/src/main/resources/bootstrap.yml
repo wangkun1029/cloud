@@ -13,4 +13,11 @@ spring:
       config:
         server-addr: 192.168.71.30:8848
         file-extension: yaml
+#        指定使用哪个分组
+        group: DEV_GROUP
+#        命名空间
+        namespace: 4539a331-cd47-4eb4-92fe-b12c78518f6e
 
+#公式
+#${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+#结果：nacos-config-client
