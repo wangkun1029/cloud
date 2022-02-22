@@ -12,6 +12,7 @@
         <module name="cloud-alibaba-provider-payment" />
         <module name="cloud-consumer-hystrix-disboard" />
         <module name="cloud-provider-hystrix-payment" />
+        <module name="cloudalibaba-sentitnel-service8401" />
         <module name="cloud-nacos-config" />
         <module name="cloud-provider-payment" />
         <module name="cloud-gateway" />
