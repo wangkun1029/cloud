@@ -16,17 +16,29 @@
         <module name="cloud-nacos-config" />
         <module name="cloud-provider-payment" />
         <module name="cloud-gateway" />
+        <module name="nacos-payment02" />
+        <module name="nacos-order" />
         <module name="cloud-eureka-server" />
         <module name="cloud-feign-order" />
         <module name="cloud-consumer-order" />
         <module name="cloud-common" />
         <module name="cloud-alibaba-provider-payment02" />
+        <module name="nacos-payment" />
         <module name="cloud-eureka-server02" />
         <module name="cloud-alibaba-consumer-nacos-order" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-config-center" target="1.8" />
+      <module name="cloud-nacos-payment" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-nacos-payment" options="" />
+      <module name="nacos-order" options="" />
+      <module name="nacos-payment" options="" />
+      <module name="nacos-payment02" options="" />
+    </option>
   </component>
 </project>

@@ -6,7 +6,16 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-feign-order/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-nacos-payment/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-payment/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-payment02/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-order/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/cloud-nacos-payment/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">

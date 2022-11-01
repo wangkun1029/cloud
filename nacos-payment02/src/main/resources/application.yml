@@ -1,0 +1,18 @@
+server:
+  port: 9011
+
+
+spring:
+  # 数据源配置
+  application:
+    name: nacos-payment-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://192.168.65.28:8848/
+    # 监控
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
