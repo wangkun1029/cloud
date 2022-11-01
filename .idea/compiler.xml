@@ -10,6 +10,7 @@
         <module name="cloud-provider-payment02" />
         <module name="cloud-consumer-feign-hystrix-order" />
         <module name="cloud-alibaba-provider-payment" />
+        <module name="cloud-nacos-group-config" />
         <module name="cloud-consumer-hystrix-disboard" />
         <module name="cloud-provider-hystrix-payment" />
         <module name="cloudalibaba-sentitnel-service8401" />
@@ -35,6 +36,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-nacos-group-config" options="" />
       <module name="cloud-nacos-payment" options="" />
       <module name="nacos-order" options="" />
       <module name="nacos-payment" options="" />

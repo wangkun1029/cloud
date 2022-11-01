@@ -1,0 +1,20 @@
+﻿server:
+  port: 3378
+
+spring:
+  # 数据源配置
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+#        不可以带http
+        server-addr: 192.168.65.28:8848
+      config:
+        server-addr: 192.168.65.28:8848
+        file-extension: yaml
+
+#公式
+# config的dataid名称
+#${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+#结果：nacos-config-client-dev.yaml

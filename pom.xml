@@ -28,6 +28,7 @@
     <module>nacos-payment</module>
     <module>nacos-order</module>
     <module>cloud-nacos-config</module>
+    <module>cloud-nacos-group-config</module>
   </modules>
   <packaging>pom</packaging>
 
