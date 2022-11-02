@@ -1,0 +1,30 @@
+server:
+  port: 9003
+
+
+spring:
+  # 数据源配置
+  application:
+    name: nacos-order-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://192.168.65.28:8848/
+    sentinel:
+      transport:
+        dashboard: 192.168.65.28:8080
+        port: 8719
+
+service-url:
+  nacos-user-service: http://nacos-payment-provider
+
+    # 监控
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+#要开启 Feign对 Hystrix的支持
+feign:
+  hystrix:
+    enabled: true

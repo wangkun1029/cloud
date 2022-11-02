@@ -29,6 +29,8 @@
     <file url="file://$PROJECT_DIR$/cloud-nacos-config/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-nacos-group-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-nacos-group-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-openfeign-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-openfeign-order/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-hystrix-payment/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-hystrix-payment/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment/src/main/java" charset="UTF-8" />

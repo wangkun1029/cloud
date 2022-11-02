@@ -15,6 +15,7 @@
         <module name="cloud-provider-hystrix-payment" />
         <module name="cloudalibaba-sentitnel-service8401" />
         <module name="cloud-nacos-config" />
+        <module name="cloud-openfeign-order" />
         <module name="cloud-provider-payment" />
         <module name="cloud-gateway" />
         <module name="nacos-payment02" />
@@ -38,6 +39,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-nacos-group-config" options="" />
       <module name="cloud-nacos-payment" options="" />
+      <module name="cloud-openfeign-order" options="" />
       <module name="nacos-order" options="" />
       <module name="nacos-payment" options="" />
       <module name="nacos-payment02" options="" />

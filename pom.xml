@@ -29,6 +29,7 @@
     <module>nacos-order</module>
     <module>cloud-nacos-config</module>
     <module>cloud-nacos-group-config</module>
+    <module>cloud-openfeign-order</module>
   </modules>
   <packaging>pom</packaging>
 
