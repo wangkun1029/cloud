@@ -17,4 +17,5 @@ public class ConfigController {
     public String getConfigInfo(){
         return configInfo;
     }
+
 }

@@ -13,6 +13,8 @@ spring:
       config:
         server-addr: 192.168.65.28:8848
         file-extension: yaml
+        group: DEV_GROUP
+        namespace: 4ecd0810-c153-44d1-8ee1-518e4914b2b8
 
 #公式
 # config的dataid名称
