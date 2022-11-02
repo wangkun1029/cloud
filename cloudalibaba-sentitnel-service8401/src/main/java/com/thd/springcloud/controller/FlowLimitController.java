@@ -11,4 +11,11 @@ public class FlowLimitController {
 
         return "----testA";
     }
+
+
+    @GetMapping("/testB")
+    public String testB(){
+
+        return "----testB";
+    }
 }
