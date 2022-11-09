@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace=" com.tdh.springcloud.setaorderservice2001.dao">
+
+    <resultMap id="BaseResultMap" type="com.tdh.springcloud.setaorderservice2001.entitys.Order">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="user_id" property="userId" jdbcType="INTEGER"/>
+        <result column="product_id" property="productId" jdbcType="INTEGER"/>
+        <result column="count" property="count" jdbcType="INTEGER"/>
+        <result column="money" property="money" jdbcType="DECIMAL"/>
+        <result column="status" property="status" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <insert id="create" parameterType="Order" useGeneratedKeys="true" keyProperty="id">
+        insert t_order (user_id,product_id,`count`,money,status ) values (#{userId},#{productId},#{count},#{money},0)
+    </insert>
+
+
+    <update id="update">
+        update t_order set status = 1 where user_id=#{userId}
+    </update>
+</mapper>

@@ -28,6 +28,7 @@
         <module name="nacos-payment" />
         <module name="cloud-eureka-server02" />
         <module name="cloud-alibaba-consumer-nacos-order" />
+        <module name="seta-order-service2001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -43,6 +44,7 @@
       <module name="nacos-order" options="" />
       <module name="nacos-payment" options="" />
       <module name="nacos-payment02" options="" />
+      <module name="seta-order-service2001" options="" />
     </option>
   </component>
 </project>

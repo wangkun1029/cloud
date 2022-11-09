@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/nacos-order/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-nacos-group-config/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-openfeign-order/pom.xml" />
+        <option value="$PROJECT_DIR$/seta-order-service2001/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
