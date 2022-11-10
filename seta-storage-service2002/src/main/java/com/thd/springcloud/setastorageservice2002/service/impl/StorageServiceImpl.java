@@ -19,7 +19,8 @@ public class StorageServiceImpl implements StorageService {
     @Override
     public void decrease(Integer productId, Integer count) {
         log.info("开始扣减库存了，count={}",count);
-        Time.sleep(20);
+        //测试全局事务问题
+//        Time.sleep(20);
         storageDaoMapper.decrease(productId,count);
         log.info("扣减库存成功了！");
     }
