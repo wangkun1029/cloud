@@ -1,12 +1,12 @@
 ﻿
 server:
-  port: 2001
+  port: 2002
 
 
 spring:
   # 数据源配置
   application:
-    name: seta-order-service
+    name: seta-storage-service
   profiles:
     active: dev
   cloud:
@@ -15,7 +15,7 @@ spring:
         server-addr: http://192.168.65.28:8848/
 
   datasource:
-    url: jdbc:mysql://192.168.65.105:3306/seta_order?autoReconnect=true&roundRobinLoadBalance=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://192.168.65.105:3306/seta_storage?autoReconnect=true&roundRobinLoadBalance=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver

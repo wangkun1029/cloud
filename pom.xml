@@ -30,6 +30,8 @@
     <module>cloud-nacos-config</module>
     <module>cloud-nacos-group-config</module>
     <module>cloud-openfeign-order</module>
+    <module>seta-order-service2001</module>
+    <module>seta-storage-service2002</module>
   </modules>
   <packaging>pom</packaging>
 
