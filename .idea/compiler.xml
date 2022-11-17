@@ -23,10 +23,12 @@
         <module name="cloud-eureka-server" />
         <module name="cloud-feign-order" />
         <module name="cloud-consumer-order" />
+        <module name="mybatisPlus" />
         <module name="cloud-common" />
         <module name="cloud-alibaba-provider-payment02" />
         <module name="nacos-payment" />
         <module name="cloud-eureka-server02" />
+        <module name="seta-storage-service2002" />
         <module name="cloud-alibaba-consumer-nacos-order" />
         <module name="seta-order-service2001" />
       </profile>
@@ -34,6 +36,7 @@
     <bytecodeTargetLevel>
       <module name="cloud-config-center" target="1.8" />
       <module name="cloud-nacos-payment" target="1.8" />
+      <module name="mybatis-plus" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -41,6 +44,8 @@
       <module name="cloud-nacos-group-config" options="" />
       <module name="cloud-nacos-payment" options="" />
       <module name="cloud-openfeign-order" options="" />
+      <module name="mybatis-plus" options="-parameters" />
+      <module name="mybatisPlus" options="-parameters" />
       <module name="nacos-order" options="" />
       <module name="nacos-payment" options="" />
       <module name="nacos-payment02" options="" />
