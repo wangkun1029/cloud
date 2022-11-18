@@ -17,7 +17,7 @@ public class R<T> implements Serializable {
     private static final long serialVersionUID = 1L;
 
 
-    public final static int FAIL = 400;
+    public final static int FAIL = 500;
     public final static int SUCCESS = 200;
     public final static int SESSION_TIMEOUT = 403;
     //    public final static int EXCEPTION = 3;
@@ -31,15 +31,12 @@ public class R<T> implements Serializable {
 
     @Getter
     @Setter
-    private boolean success;
+    private boolean ok;
 
     @Getter
     @Setter
     private String message;
 
-    @Getter
-    @Setter
-    private T body;
 
     @Getter
     @Setter
@@ -82,9 +79,9 @@ public class R<T> implements Serializable {
     private static <T> R<T> restResult(T data, int code, boolean success, String msg) {
         R<T> apiResult = new R<>();
         apiResult.setCode(code);
-        apiResult.setBody(data);
+        apiResult.setData(data);
         apiResult.setMessage(msg);
-        apiResult.setSuccess(success);
+        apiResult.setOk(success);
         return apiResult;
     }
 

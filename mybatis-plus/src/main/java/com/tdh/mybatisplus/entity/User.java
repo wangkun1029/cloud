@@ -25,6 +25,8 @@ public class User {
 
     private String email;
 
+    private Integer sex;
+
     private Date createTime;
 
     private Date updateTime;
